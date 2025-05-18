@@ -2,7 +2,7 @@
 
 function Modal({ item, onClose }) {
   return (
-    <dialog id="product_modal" className="modal" open>
+    <dialog id="product_modal" className="modal scroll-auto" open>
       <div className="modal-box skeleton">
         <form method="dialog">
           <button
@@ -15,7 +15,7 @@ function Modal({ item, onClose }) {
           <>
             <h3 className="font-bold text-lg pt-2">{item.title}</h3>
             <img
-              className="w-full my-4 rounded"
+              className="my-4 rounded"
               src={item.image}
               alt={item.title}
             />
