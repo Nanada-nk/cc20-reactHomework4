@@ -104,7 +104,7 @@ function App() {
           {selectedProduct && (
             <Modal
               item={selectedProduct}
-              onClose={() => setSelectedProduct(null)} //callback function
+              onClose={() => setSelectedProduct(null)} //callback function ========
             />
           )}
         </>
